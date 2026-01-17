@@ -1,29 +1,41 @@
-TaskFlow est une application de gestion de tâches développée avec React, TypeScript et Tailwind CSS.
-Le projet met l’accent sur une architecture claire, des composants réutilisables et une expérience utilisateur simple et accessible.
+# TaskFlow 🚀
 
-Les Fonctionnalités
+Une application de gestion de tâches moderne développée avec React, TypeScript et Tailwind CSS.
 
-Création de tâches avec :
+## ✨ Fonctionnalités
 
-Titre
+### Gestion des tâches
+- ✅ Créer une nouvelle tâche
+- ✅ Supprimer une tâche
+- ✅ Assigner un statut (À faire, En cours, Fait)
+- ✅ Définir une priorité (Basse, Moyenne, Haute)
+- ✅ Validation du formulaire en temps réel
+- ✅ Affichage dynamique du nombre de tâches
 
-Statut (À faire, En cours, Fait)
+### Interface utilisateur
+- 📱 Design responsive
+- ♿ Accessible et ergonomique
+- 🎨 Utilisation de Tailwind CSS pour un style moderne
 
-Priorité (Basse, Moyenne, Haute)
+## 📦 Prérequis
 
-Suppression de tâches
+- Node.js (v18 ou supérieur)
+- npm ou yarn
 
-Validation du formulaire (champ obligatoire)
+## 🔧 Installation
 
-Affichage d’un état vide
+```bash
+# Cloner le repository
+git clone https://github.com/gkiThor/taskflow.git
+cd taskflow
 
-Interface responsive et accessible
+# Installer les dépendances
+npm install
 
-Les Choix techniques
-React 19 + TypeScript + Vite + Tailwind CSS
+# Lancer le serveur de développement
+npm run dev
 
-Typage strict des données (Task, TaskStatus, TaskPriority)
+# Accéder à l'application
+# Ouvrir http://localhost:5173 dans votre navigateur
 
-Séparation claire entre UI, logique métier et modèle de données
 
-Composants fonctionnels avec hooks (useState)
